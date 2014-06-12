@@ -1,0 +1,13 @@
+=li-color($time, $alpha_color, $shadow, $bravo_color, $charlie_color)
+  &-#{$time}
+    @if $time == "am"
+      background-color: $bravo_color
+      box-shadow: $shadow
+      color: $alpha_color
+      border: $charlie_color
+    @if else == "noon"
+      background-color: $bravo_color
+      box-shadow: $shadow
+      color: $alpha_color
+      border: $charlie_color
+
