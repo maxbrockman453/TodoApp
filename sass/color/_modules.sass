@@ -1,23 +1,8 @@
-li.am
-  +li-color("am", $am-alpha, (box-shadow: .1em .1em 1em black), $am-bravo, $am-charlie )
-  list-style-type: none
-  &:hover
-    box-shadow: 0, 3px, 0, #ffdc00
-  &:active
-    box-shadow: 0, 3px, 0, #d86969
+.theme
+  +li-color("am", $am-alpha, $am-bravo, $am-charlie )
 
-li.noon
-  +li-color("noon", $noon-alpha, (box-shadow: .1em .1em 1em black), $noon-bravo, $noon-charlie )
-  list-style-type: none
-  &:hover
-    box-shadow: 0 3px 0 #ffdc00
-  &:active
-    box-shadow: 0 3px 0 #d86969
+.theme2
+  +li-color("noon", $noon-alpha, $noon-bravo, $noon-charlie)
 
-li.pm
-  +li-color("pm", $pm-alpha, (box-shadow: .1em .1em 1em black), $pm-bravo, $pm-charlie )
-  list-style-type: none
-  &:hover
-    box-shadow: 0 3px 0 #ffdc00
-  &:active
-    box-shadow: 0 3px 0 #d86969
+.theme3
+  +li-color("pm", $pm-alpha, $pm-bravo, $pm-charlie )
