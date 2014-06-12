@@ -1,7 +1,10 @@
 =li-color($time, $alpha_color, $bravo_color, $charlie_color)
   &-#{$time}
     @if $time == "am"
-    @if else $time == "noon"
+      background-color: $bravo_color
+      color: $alpha_color
+      border: $charlie_color
+    @else if $time == "noon"
       background-color: $bravo_color
       color: $alpha_color
       border: $charlie_color
